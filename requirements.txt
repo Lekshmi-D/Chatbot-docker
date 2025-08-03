@@ -1,0 +1,11 @@
+streamlit
+langchain
+chromadb
+faiss-cpu
+openai
+pypdf
+python-pptx
+sentence-transformers
+tqdm
+llama-cpp-python
+watchdog
