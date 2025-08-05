@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Clone the repo into /app
-RUN git clone https://github.com/your-org/your-chatbot-repo.git
+RUN git clone https://github.com/Lekshmi-D/Chatbot-docker.git
 
 # Step 5: Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r Chatbot-docker/requirements.txt
