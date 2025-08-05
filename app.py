@@ -10,7 +10,7 @@ st.set_page_config(page_title="Document QA Chatbot", layout="wide")
 # Admin section: Upload and manage documents
 def admin_controls():
     # Add logo at the top of the sidebar
-    st.sidebar.image("D:\Archive\80342670.cms.avif", use_container_width=True)
+    st.sidebar.image("80342670.cms.avif", use_container_width=True)
     st.sidebar.header("Admin Controls")
     uploaded_files = st.sidebar.file_uploader(
         "Upload .txt, .pdf, .pptx files", type=["txt", "pdf", "pptx"], accept_multiple_files=True, key="file_uploader"
